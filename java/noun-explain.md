@@ -7,8 +7,8 @@
 3. **RMI: \( Remote Method Invocation \) ** RPC的java版本，EJB的基础技术，构建在TCP/IP协议上的一种远程调用方法。
    1. RMI采用stubs和skeletons来进行远程对象的通讯。stub充当远程对象的客户端代理，有着和远程对象相同的远程接口，远程对象的调用实际是通过改对象的客户端代理对象来完成的。
    2. [http://www.jb51.net/article/68971.htm](http://www.jb51.net/article/68971.htm)
-4. **SOAP \( Simple Object Access Protocol \)：**主要工作是使用标准的香木林描述了RPC的请求信息（URI/类/方法/参数/返回值）
-5. **WSDL \( Web Services Description Language \):**描述web服务的，描述怎么访问web服务。
+4. **SOAP \( Simple Object Access Protocol \)：**主要工作是使用标准的香木林描述了RPC的请求信息（URI/类/方法/参数/返回值），一般是一段xml
+5. **WSDL \( Web Services Description Language \):**描述web服务的，描述怎么访问web服务。也是一段xml
 
 
 
