@@ -13,4 +13,5 @@
 ## JS
 
 * [Js\_Summary](jssummary.md)
+  * [js skill](jssummary/js-skill.md)
 
