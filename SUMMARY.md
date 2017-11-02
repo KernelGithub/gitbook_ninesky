@@ -9,6 +9,7 @@
     * [Variable Types](java/type-deposit/two-tyoes.md)
     * [Stack And heap](java/type-deposit/stack-and-heap.md)
     * [Data how to save](java/type-deposit/data-how-to-save.md)
+    * [bit operation and practical use](java/type-deposit/bit-operation-and-practical-use.md)
 
 ## JS
 
