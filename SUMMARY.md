@@ -11,6 +11,7 @@
     * [Data how to save](java/type-deposit/data-how-to-save.md)
     * [bit operation and practical use](java/type-deposit/bit-operation-and-practical-use.md)
     * [HashMap&HashTable](java/type-deposit/hashmap.md)
+    * [CopyOnWriteArrayList&CopyOnWriteMap](java/type-deposit/custom-copyonwritemap.md)
 
 ## JS
 

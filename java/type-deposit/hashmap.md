@@ -15,9 +15,10 @@
 
 3. 让HashMap同步
 
-   1. ```
-      Map m = Collections.synchronizeMap(hashMap);
-      ```
+   ```
+   Map m = Collections.synchronizeMap(hashMap);//还是建议使用ConcurrentHashMap
+   ```
 
+4. 
 
 
