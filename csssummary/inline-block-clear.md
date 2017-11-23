@@ -20,18 +20,18 @@
       | chrome | margin:-3px |  
       | IE | margin:-2px |
 
-   1. | browser | word-space值\(左右\) |
+   2. | browser | word-space值\(左右\) |
       | :--- | :--- |
       | 火狐 | word-space: -8px |
       | chrome | word-space: -6px |
       | IE | word-space: -4px |
-   2. 兼容IE6、IE7
+   3. 兼容IE6、IE7
 
-   3. 解决设置inline-block触发块元素，具有了layout的特性，然后设置display:inlie使块元素呈现内联元素，此时layout的特性不会消失。
+   4. 解决设置inline-block触发块元素，具有了layout的特性，然后设置display:inlie使块元素呈现内联元素，此时layout的特性不会消失。
 
-   4. 直接设置display:inline,使用zoom:1触发layout
+   5. 直接设置display:inline,使用zoom:1触发layout
 
-   5. 兼容所有浏览器的方法：
+   6. 兼容所有浏览器的方法：
 
       1. display:inline-block;
 
