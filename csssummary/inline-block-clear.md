@@ -23,6 +23,5 @@
       | 火狐 | margin:-4px |
       | chrome | margin:-3px |
       | IE | margin:-2px |
-
-  4.      i.
+4. i.
 
