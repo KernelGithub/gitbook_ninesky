@@ -26,9 +26,9 @@
       | IE | word-space: -4px |
    3. .space {letter-spacing: -3px;}   .space a {letter-spacing: 0;}
 
-   1. 兼容IE6、IE7
+   4. 兼容IE6、IE7
 
-   2. 解决设置inline-block触发块元素，具有了layout的特性，然后设置display:inlie使块元素呈现内联元素，此时layout的特性不会消失。直接设置display:inline,使用zoom:1触发layout,兼容所有浏览器的方法
+   5. 解决设置inline-block触发块元素，具有了layout的特性，然后设置display:inlie使块元素呈现内联元素，此时layout的特性不会消失。直接设置display:inline,使用zoom:1触发layout,兼容所有浏览器的方法
 
       ```
        isplay:inline-block;
