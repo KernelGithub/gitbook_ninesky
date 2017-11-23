@@ -38,6 +38,43 @@
       \*zoom:1;/\*ie7-6\*/
       ```
 
-3. 
+3. inline和block区别
+
+   1. 块级元素会独占一行，其宽度自动填满其父元素宽度，行内元素会独占一行，相邻的行内元素会排在同一行里，知道一行排不下，才会换行，其宽度随元素的内容二变化。
+
+   2. 块级元素可以设置width、height属性，行内元素设置无效。（块级元素设置了宽度还是会独占一行）
+
+   3. 块级元素可以设置margin和padding，行内元素的水平方向的padding-left,padding-right,margin-right都产生边距效果，单竖直方向的padding-top、padding-boottom、margin-top,margin-bottom都不会参数边距效果（水平有效，竖直无效）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
