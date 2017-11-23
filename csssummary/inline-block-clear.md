@@ -18,11 +18,11 @@
       | 火狐 | margin:-4px |
       | chrome | margin:-3px |
       | IE | margin:-2px |
-3. 1. | browser | margin值\(左右\) |
+   2. | browser | margin值\(左右\) |
       | :--- | :--- |
       | 火狐 | margin:-4px |
       | chrome | margin:-3px |
       | IE | margin:-2px |
-   2. 
-4. i.
+   3. 
+3. i.
 
