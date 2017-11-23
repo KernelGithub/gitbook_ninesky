@@ -48,5 +48,23 @@
 
    4. 块级元素p只能包含inline元素
 
+4. display:inline-block
+
+   1. 简单来说，就是将对象呈现为inline对象，但是对象的内容作为block对象呈现。之后的内联对象会被排列在同一行内。比如我们可以给一个a元素设置inline-block属性值，使其既具有block宽高度特性又具有inline的同行特性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
