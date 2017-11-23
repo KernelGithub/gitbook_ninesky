@@ -13,11 +13,12 @@
 1. 去掉html中的空格
    1. ![](/assets/1t.png)![](/assets/2.png)![](/assets/3.png)
 2. margin  
-   1.\| browser \| margin\(right left\) \|  
-      \| :--- \| :--- \|  
-      \| 火狐 \| margin:-4px \|  
-      \| chrome \| margin:-3px \|  
-      \| IE \| margin:-2px \|
+   1. 
+      | browser | margin\(right left\) |  
+      | :--- | :--- |  
+      | 火狐 | margin:-4px |  
+      | chrome | margin:-3px |  
+      | IE | margin:-2px |
 
    1. | browser | word-space值\(左右\) |
       | :--- | :--- |
