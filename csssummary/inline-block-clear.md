@@ -24,15 +24,20 @@
       | 火狐 | word-space: -8px |
       | chrome | word-space: -6px \(display: inline-table;\) |
       | IE | word-space: -4px |
-   3. 兼容IE6、IE7
+   3.    .space {letter-spacing: -3px;}   .space a {letter-spacing: 0;}
 
-   4. 解决设置inline-block触发块元素，具有了layout的特性，然后设置display:inlie使块元素呈现内联元素，此时layout的特性不会消失。直接设置display:inline,使用zoom:1触发layout,兼容所有浏览器的方法
+   4. 
+   5. 兼容IE6、IE7
 
-           isplay:inline-block;
+   6. 解决设置inline-block触发块元素，具有了layout的特性，然后设置display:inlie使块元素呈现内联元素，此时layout的特性不会消失。直接设置display:inline,使用zoom:1触发layout,兼容所有浏览器的方法
 
-          \*display:inline;/\*ie7-6\*/
+      ```
+       isplay:inline-block;
 
-          \*zoom:1;/\*ie7-6\*/
+      \*display:inline;/\*ie7-6\*/
+
+      \*zoom:1;/\*ie7-6\*/
+      ```
 
 3. 
 
