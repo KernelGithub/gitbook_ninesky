@@ -1,6 +1,6 @@
 # 去除inline-block元素间间距的N种方法
 
-**现象**：正真意义上的inline-block水平呈现的元素间，换行显示或空格分隔的情况下会有间距，eg：
+**现象**：正真意义上的inline-block水平呈现的元素间，换行显示或空格分隔的情况下会有间距,eg：
 
 &lt;input/&gt;&lt;input type="submit" /&gt;
 
