@@ -4,16 +4,16 @@
 
 SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，也就是说所有有效的CSS3样式也同样适合于SASS
 
-1. 在scss中使用变量
+1. **在scss中使用变量**
    ```
    $blue: #3bbfce;
    $margin:16px;
    .content { border-color:$blue;margin: $margin/2 }
    ```
-2. SCSS嵌套  
+2. **SCSS嵌套**  
    1. 嵌套规则
 
-	   ```
+   ```
        //嵌套功能避免了重复输入父选择器，而且令复杂的css结构更加易于管理
        //用法一
        #main p {
@@ -27,9 +27,9 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
        //<===>
        #main p{ color: #000;width: 10vw; }
        #main p .redbox {background-color: #f00; color: #111; }
-	   ```
+   ```
 
-   2. 父选择器
+   1. 父选择器
 
       ```
       #main {
@@ -47,7 +47,7 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
       #mian a:hover { color:red; }
       ```
 
-   3. 嵌套属性\(一般都有对应的缩写\)
+   2. 嵌套属性\(一般都有对应的缩写\)
 
       ```
       .funky { 
@@ -66,15 +66,15 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
       }
       ```
 
-3. 注释
+3. **注释**
 
    1. 风格一：  /\*  comment  \*/， 多行注释，会被完整输出到编译后的css文件
 
    2. 风格二： //    ，单行注释，不会被输出到编译后的文件。
 
-4. @extend ： 将一个选择器下的样式继承给另一个选择器
+4. **@extend** ： 将一个选择器下的样式继承给另一个选择器
 
-    1. 延伸class选择器
+   1. 延伸class选择器
 
       ```
       //错误 和 严重错误
@@ -90,12 +90,14 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
       .error.intrusion, .seriousError.intrusion  { background-image: url("/image/hacked.png")}
       .seriousError { border-width: 3px; }
       ```
-   2. 延伸复杂的选择器，比如 .special.cool、a:hover、a.user\[href^="http://"\]等例：
+
+      1. 延伸复杂的选择器，比如 .special.cool、a:hover、a.user\[href^="[http://"\]等例：](http://"]等例：)
 
       ```
       //同class一样，a:hover的样式将继承给.hoverlink
       .hoverlink { @extend a:hover }
       a:hover { text-decoration: underline }
       ```
+
 
 
