@@ -20,6 +20,35 @@
       ```
 3. 计数器
    1. [http://www.zhangxinxu.com/study/201408/css-counters-string-break.html](http://www.zhangxinxu.com/study/201408/css-counters-string-break.html)
+   2. counter-reset: 属性创建或者重置一个或多个计数器\(重置默认值时chrome支持小数，其他的不支持，看鑫空间\)
+   3. counter-increment:属性递增一个或多个计数器值；
+   4. content: 与:before及:after伪元素配合使用，来插入生产内容
+   5. eg，判断checkbox选中了几个
+      1. ```
+         .choose { counter-reset:fruit 0; }
+         .choose input:checked{counter-increment:fruit; }
+         .choose:before { content: counter(fruit)}
+         ```
 
+         ![](/assets/4)
+4. 平行四边形
+
+   1. 解决方案：伪元素，把样式应用到伪元素上，对伪元素进行变形，再把伪元素定位+层级放在所属元素的下面
+
+   2. code
+
+   3. ```
+      .button {
+          position: relative; display: inline-block; padding: .5em 1em; border:0; margin: .5em;
+          background: transparent; color: white; text-transform: uppercase; text-decoration: none;
+          font: bold 200%/1 sans-serif;
+      }
+      .button:before { 
+          content:"";position:absolute; top:0;right:0;bottom:0;left: 0;z-index:-1;background:#58a;
+          transform:skew(45deg);
+      }
+      ```
+
+5. 
 
 
