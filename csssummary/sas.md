@@ -13,23 +13,23 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
 2. SCSS嵌套  
    1. 嵌套规则
 
-   ```
-       //嵌套功能避免了重复输入父选择器，而且令复杂的css结构更加易于管理
-       //用法一
-       #main p {
-           color: #000;
-           width: 10vw;
-           .redbox {
-               background-color: #f00;
-               color: #111;
-           }
-       }
-       //<===>
-       #main p{ color: #000;width: 10vw; }
-       #main p .redbox {background-color: #f00; color: #111; }
-   ```
+	   ```
+	       //嵌套功能避免了重复输入父选择器，而且令复杂的css结构更加易于管理
+	       //用法一
+	       #main p {
+	           color: #000;
+	           width: 10vw;
+	           .redbox {
+	               background-color: #f00;
+	               color: #111;
+	           }
+	       }
+	       //<===>
+	       #main p{ color: #000;width: 10vw; }
+	       #main p .redbox {background-color: #f00; color: #111; }
+	   ```
 
-   1. 父选择器
+   2. 父选择器
 
       ```
       #main {
@@ -47,7 +47,7 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
       #mian a:hover { color:red; }
       ```
 
-   2. 嵌套属性\(一般都有对应的缩写\)
+   3. 嵌套属性\(一般都有对应的缩写\)
 
       ```
       .funky { 
