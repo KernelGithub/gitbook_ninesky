@@ -12,21 +12,84 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
    ```
 2. SCSS嵌套
    1. 嵌套规则
-   ```
-	   //嵌套功能避免了重复输入父选择器，而且令复杂的css结构更加易于管理
-	   //用法一
-	   #main p {
-	       color: #000;
-	       width: 10vw;
-	       .redbox {
-	           background-color: #f00;
-	           color: #111;
-	       }
-	   }
-	   //<===>
-	   #main p{ color: #000;width: 10vw; }
-	   #main p .redbox {background-color: #f00; color: #111; }
-   ```
+      ```
+       //嵌套功能避免了重复输入父选择器，而且令复杂的css结构更加易于管理
+       //用法一
+       #main p {
+           color: #000;
+           width: 10vw;
+           .redbox {
+               background-color: #f00;
+               color: #111;
+           }
+       }
+       //<===>
+       #main p{ color: #000;width: 10vw; }
+       #main p .redbox {background-color: #f00; color: #111; }
+      ```
+   2. 父选择器
+
+      ```
+      #main {
+          color: #eee;
+          a {
+              font-weight: bold;
+              &:hover {
+                  color: red;
+              }
+          }
+      }
+      //<===>
+      #main {color:#eee;}
+      #main a {font-weight: bold;}
+      #mian a:hover { color:red; }
+      ```
+
+   3. 嵌套属性\(一般都有对应的缩写\)
+
+      ```
+      .funky { 
+          font: 20px/24px;{ 
+              family: fantasy;
+              size: 30em;
+              weight:bold;
+          }
+      }
+      //<====>
+
+      .funky {
+          font: 20px/24px;
+          font-family: fantasy;
+          font-weight: bold;
+      }
+      ```
+3. 注释
+
+   1. 风格一：  /\*  comment  \*/， 多行注释，会被完整输出到编译后的css文件
+
+   2. 风格二： //    ，单行注释，不会被输出到编译后的文件。
+
+4. @extend ： 将一个选择器下的样式继承给另一个选择器
+
+   1. ```
+      //错误 和 严重错误
+      .error { border: 1px #f00; background-color: #fdd;}
+      .seriousError { @extend .error; border-width: 3px; }
+
+      //注意:其他使用到.error的样式同样继承给.seriousError，例如，另一个样式.error.instrusion 使用了hacked.png做背景，
+      //.seriousError同样也会使用hacked.png背景。
+      //eg:上面error样式上：
+      .error.intrusion { background-image: url("/image/hacked.png")}
+      //<=====>
+      .error,.seriousError{border: 1px #f00; background-color: #fdd; }
+      .error.intrusion, .seriousError.intrusion  { background-image: url("/image/hacked.png")}
+      .seriousError { border-width: 3px; }
+      ```
+
+5. 
+
+
+
 
 
 
