@@ -5,13 +5,13 @@
 SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，也就是说所有有效的CSS3样式也同样适合于SASS
 
 1. 在scss中使用变量
-2. ```
+   ```
    $blue: #3bbfce;
    $margin:16px;
    .content { border-color:$blue;margin: $margin/2 }
    ```
 
-   2.
+2.
 
 
 
