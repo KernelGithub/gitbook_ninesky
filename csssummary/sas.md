@@ -10,7 +10,6 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
    $margin:16px;
    .content { border-color:$blue;margin: $margin/2 }
    ```
-
 2.
 
 
