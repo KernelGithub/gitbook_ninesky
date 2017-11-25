@@ -92,7 +92,7 @@ SCSS即是SASS的新语法，是Sassy CSS的缩写，是CSS3语法的超集，�
       .seriousError { border-width: 3px; }
       ```
 
-   2. 延伸复杂的选择器，比如 .special.cool、a:hover、a.user\[href^="http://"\] 等,例如：
+   2. 延伸复杂的选择器，比如 .special.cool、a:hover、a.user\[href^='http://XXXX'\] 等,例如：
 
       ```
       //同class一样，a:hover的样式将继承给.hoverlink
