@@ -26,6 +26,7 @@
   * [inline-block  clear](csssummary/inline-block-clear.md)
   * [伪元素实用小技巧](csssummary/wei-yuan-su-shi-yong-xiao-ji-qiao.md)
   * [sass基本用法](csssummary/sas.md)
+  * [CSS3](csssummary/css.md)
 
 ## isux.tencent.com/
 
