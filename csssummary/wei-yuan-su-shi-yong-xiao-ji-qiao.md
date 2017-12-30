@@ -24,8 +24,8 @@
    3. counter-increment:属性递增一个或多个计数器值；  
    4. content: 与:before及:after伪元素配合使用，来插入生产内容  
    5. eg，判断checkbox选中了几个  
-      1. `.choose { counter-reset:fruit 0; }    
-         .choose input:checked{counter-increment:fruit; }    
+      1. `.choose { counter-reset:fruit 0; }      
+         .choose input:checked{counter-increment:fruit; }      
          .choose:before { content: counter(fruit)}`
 
    ```
