@@ -19,6 +19,7 @@
   * [js skill](jssummary/js-skill.md)
   * [Noun Explain](jssummary/noun-explain.md)
   * [jquery](jssummary/jquery.md)
+  * [js 6种类型](jssummary/js-ji-ben-lei-xing.md)
 
 ## CSS
 
