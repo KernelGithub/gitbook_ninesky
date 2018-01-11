@@ -37,6 +37,7 @@
 ## h5
 
 * [h5\_Summary](h5summary.md)
-  * [data-*](h5/html5全局属性.md)
+  * [data-\*](h5/html5全局属性.md)
   * [html和css面试相关](h5/qian-duan-mian-shi-ti-zhi-html-he-css.md)
+  * [前端工程师面试套路](h5/qian-duan-gong-cheng-shi-mian-shi-tao-lu.md)
 
