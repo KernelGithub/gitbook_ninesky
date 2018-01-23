@@ -17,7 +17,8 @@
   * thymeleaf
   * [git](java/git.md)
 * [linux](linux.md)
-  * [linux](linux/linux.md)
+  * [linux端口占用情况](linux/linux.md)
+  * [日志监控](linux/ri-zhi-jian-kong.md)
 
 ## JS
 
