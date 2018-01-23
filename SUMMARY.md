@@ -17,7 +17,7 @@
   * thymeleaf
   * [git](java/git.md)
 * [linux](linux.md)
-  * linux
+  * [linux](linux/linux.md)
 
 ## JS
 
