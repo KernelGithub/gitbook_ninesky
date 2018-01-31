@@ -19,6 +19,7 @@
 * [linux](linux.md)
   * [linux端口占用情况](linux/linux.md)
   * [日志监控](linux/ri-zhi-jian-kong.md)
+  * passwd文件和shadow文件
 
 ## JS
 
