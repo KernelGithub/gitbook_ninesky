@@ -47,3 +47,7 @@
   * [html和css面试相关](h5/qian-duan-mian-shi-ti-zhi-html-he-css.md)
   * [前端工程师面试套路](h5/qian-duan-gong-cheng-shi-mian-shi-tao-lu.md)
 
+## sql
+
+* [edb相关命令](sql/edbxiang-guan-ming-ling.md)
+
